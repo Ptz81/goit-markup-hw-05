@@ -571,6 +571,42 @@ background-color: var(--main-color);
     display: block;
     text-decoration: none;
     color: currentColor;
+    position: relative;
+}
+
+.portfolio-cover{
+    position: relative;
+    
+}
+
+.portfolio-cover:hover .hidden-text,
+.portfolio-cover:focus .hidden-text{
+    transform: translatey(0);
+    opacity: 1;
+    
+}
+
+.hidden-text{
+    font-family: 'Roboto';
+     
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55;
+    
+        /* or 156% */
+        letter-spacing: 0.03em;
+
+        color: var(--main-color);
+        background-color: var(--accent-color);
+        opacity: 0;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding: 63px 24px;
+        transform: translatey(100%);
+        transition: transform 250ms ease;
 }
 
 .portfolio-link:hover,
@@ -582,6 +618,7 @@ background-color: var(--main-color);
 .title-img{
 padding: 20px 24px;
 border: 1px solid var(--border-header);
+
 }
 
 
