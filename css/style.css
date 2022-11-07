@@ -83,6 +83,7 @@ body{
 .accent:focus
 {
     color: var(--accent-color);
+    transition: color 250ms linear;
 }
 .container{
 
@@ -171,38 +172,7 @@ body{
     margin-right: 10px;
     fill: currentColor;
 }
-/* .mail-icon:hover,
-.mail-icon:focus
-{
-    fill: currentColor;
-} */
-/* .icon-envelope::before{
-    content: '';
-    width: 16px;
-    height: 16px;
-    display: inline-block;
 
-    margin-right: 10px;
-    background-image: url(../images/envelope.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-} */
-
-
-/* 
-.icon-phone::before{
-    content: '';
-        width: 16px;
-        height: 16px;
-        display: inline-block;
-        margin-right: 10px;
-        background-image: url(../images/smartphone.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-} */
 
 .logo{
     color: var(--logo-color);
@@ -293,6 +263,8 @@ body{
 .btn:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--title-text-color);
+    transition: color 250ms linear;
+    transition: box-shadow 250ms linear;
 }
 
 
@@ -375,7 +347,6 @@ background-color: var(--main-color);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
-    /* margin-top: 0; */
 }
 .team-name{
     margin: 0;
@@ -417,13 +388,10 @@ background-color: var(--main-color);
 .social-link:focus{
     background-color: var(--accent-color);
     color: var(--main-color);
+    transition: color 250ms linear;
+    transition: background-color 250ms linear;
 }
-/* .social-link:hover .icon,
-.social-link:focus .icon{
-    fill: var(
-        --main-color
-    )
-} */
+
 
 
 /* Clients */
@@ -449,10 +417,9 @@ background-color: var(--main-color);
 }
 .clients-link:hover{
     color: var(--accent-color);
+    transition: color 250ms ease;
 }
-/* .clients-link:hover .icon{
-    fill: var(--accent-color);
-} */
+
 
 /* Footer */
 .footer{
@@ -460,9 +427,7 @@ background-color: var(--main-color);
     display: flex;
     justify-content: flex-start;
     padding: 60px 0;
-    /* font-style: normal;
-    font-weight: 400;
-    line-height: 1.7; */
+
     
 }
 .address{
@@ -575,6 +540,7 @@ background-color: var(--main-color);
     background-color: var(--accent-color);
     color: var(--main-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 250ms ease;
 }
 
 
@@ -589,10 +555,7 @@ background-color: var(--main-color);
     width: 370px;
   
 }
-/* .border-line:hover,
-.border-line:focus{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
+
 
 .portfolio-title{
     font-weight: 700;
@@ -613,6 +576,7 @@ background-color: var(--main-color);
 .portfolio-link:hover,
 .portfolio-link:focus{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 250ms ease;
 }
 
 .title-img{
