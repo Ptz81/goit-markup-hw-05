@@ -175,10 +175,10 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
     
-    display: block;
+    display: flex;
     
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
    /* margin-bottom: 10px; */
  
 }
